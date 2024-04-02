@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 절대경로 사용할 수 없다-->
+<!-- 상대경로 : <img-->
+<strong>같은 경로에 존재</strong><br>
+<img src="img4.png"/><br>
+
+<strong>하위 폴더에 존재</strong><br>
+<img src="images/daum_logo.png"/><br>
+
+<strong>상위 폴더에 존재</strong><br>
+<img src="../common/images/img2.png"/>
+
+<h2>URL</h2>
+<img src="http://localhost/html_prj/day0312/img4.png"/>
+<img src="http://localhost/html_prj/day0312/images/img2.png"/>
+<img src="http://localhost/html_prj/common/images/sist_logo.png"/>
+
+<h2>크기변경</h2>
+<!-- width속성이나 height속성 중 하나만 사용하더라도 비율에 맞춰 변경된다.-->
+원본<br>
+<img src="http://localhost/html_prj/common/images/img.jpg"/><br>
+<img src="http://localhost/html_prj/common/images/img.jpg" width="300px"/><br>
+풍선도움말<br>
+<img src="http://localhost/html_prj/common/images/img.jpg" title="7강의장 반장"/><br>
+<img src="http://localhost/html_prj/common/images/img.jpg" alt="7강의장 반장"/><br>
+<img src="http://localhost/html_prj/common/images/img.jpg" b?="7강의장 반장"/><br>
+
+</body>
+</html>
